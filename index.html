@@ -65,7 +65,7 @@
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase-database.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.8.1/firebase.js"></script>
   <script>
-    {
+  const firebaseConfig =  {
   apiKey: "AIzaSyDodmjwACguR-itShSIGuDQRZkMzEKcvRc",
   authDomain: "instafamousdb.firebaseapp.com",
   databaseURL: "https://instafamousdb-default-rtdb.firebaseio.com",
@@ -74,7 +74,7 @@
   messagingSenderId: "179706359079",
   appId: "1:179706359079:web:072d72f838f0761ade4d02",
   measurementId: "G-Z6JW7CV0VH"
-
+  };
     firebase.initializeApp(firebaseConfig);
     async function signInAnonymously() {
       try {
